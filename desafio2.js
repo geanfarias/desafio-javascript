@@ -14,7 +14,7 @@ exports.sum = sum;
     - O retorno das funcão deve ser juncão(cancatenacão) dos dois parametros passados e retonar o nome completo.
 */
 fullname = function(name, surname){
-    return name + ' ' + surname;
+    return name + " " + surname;
 }
 exports.fullname = fullname;
 
@@ -55,7 +55,7 @@ calculatev2 = function(param1, param2, param3){
         return param1;
     }
     else{
-        false;
+        return false;
     }
 }
 
